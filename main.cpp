@@ -6,7 +6,8 @@ int main() {
    cin>>n;
    
    do{
-      cout<<t;
+      if(t<n)
+         cout<<t;
       
       t=ts+td;
       ts=td;
