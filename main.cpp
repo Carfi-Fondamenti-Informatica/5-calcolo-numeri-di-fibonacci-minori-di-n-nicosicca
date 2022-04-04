@@ -6,14 +6,14 @@ int main() {
    cin>>n;
    
    do{
-      if(t<n)
-         cout<<t<<endl;
+
+      cout<<t<<endl;
       
       t=ts+td;
       ts=td;
       td=t;
       
-   }while(t<n);
+   }while(t<=n);
    
    return 0;
 }
