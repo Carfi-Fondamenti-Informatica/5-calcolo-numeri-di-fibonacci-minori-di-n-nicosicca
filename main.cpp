@@ -2,12 +2,11 @@
 using namespace std;
 
 int main() {
-   int t=1, ts=0, td=1;
+   int t=1, ts=0, td=1, n;
    cin>>n;
    
    do{
-      if(t<n)
-         cout<<t;
+      cout<<t;
       
       t=ts+td;
       ts=td;
